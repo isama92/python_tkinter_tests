@@ -1,4 +1,4 @@
-# Toolbar
+# Statusbar
 
 from tkinter import Tk, Menu, Frame, Button, Label, LEFT, TOP, BOTTOM, X, SUNKEN, W
 
@@ -9,7 +9,7 @@ def do_something():
 
 def test7():
     root = Tk()
-    root.title('Test 7 - Toolbar')
+    root.title('Test 7 - Statusbar')
 
     menu = Menu()
     root.option_add('*tearOff', False)
